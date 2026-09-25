@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "title": "Prevodilac u Herceg Novom · Ruski, Engleski, Srpski",
+    "description": "Usmeno i pismeno prevođenje, pratnja kod notara, lekara, u banci i državnim organima. Kompletna podrška pri preseljenju u Crnu Goru."
+  },
+  "brand": {
+    "name": "Nikolaj · Prevodilac u Herceg Novom",
+    "short": "Nikolaj"
+  },
+  "nav": {
+    "services": "Usluge",
+    "howItWorks": "Kako funkcioniše",
+    "about": "O meni",
+    "contact": "Kontakt",
+    "cta": "Pišite na Telegram",
+    "skip": "Preskoči na sadržaj",
+    "menu": "Meni"
+  },
+  "hero": {
+    "eyebrow": "Herceg Novi · Boka Kotorska",
+    "title": "Prevodilac koji vas vodi <hl>kroz sve institucije</hl>",
+    "subtitle": "Usmeno i pismeno prevođenje, pratnja u državnim organima i kompletna podrška pri preseljenju u Crnu Goru — jasno, ljudski, na vašem jeziku.",
+    "ctaPrimary": "Pišite na Telegram",
+    "ctaSecondary": "Pošaljite upit",
+    "imageAlt": "Panorama Boke Kotorske i Herceg Novog",
+    "badges": {
+      "languages": "Ruski · Engleski · Srpski",
+      "local": "Živim i radim u Herceg Novom",
+      "response": "Odgovaram u toku dana"
+    }
+  },
+  "services": {
+    "title": "Kako mogu da pomognem",
+    "subtitle": "Tri formata — od jednokratne pratnje do vođenja celog preseljenja.",
+    "interpreting": {
+      "title": "Usmeno prevođenje i pratnja",
+      "desc": "Pratim vas kod notara, lekara, u banci, policiji, na prodaji nekretnina i u državnim organima. Govorim umesto vas — vi ste mirni.",
+      "price": "10–15 €/sat"
+    },
+    "documents": {
+      "title": "Pismeno prevođenje dokumenata",
+      "desc": "Ugovori, uverenja, diplome, izvodi, medicinski nalazi. Po potrebi organizujem overu kod sudskog tumača.",
+      "price": "po strani / na upit"
+    },
+    "relocation": {
+      "title": "Kompletna podrška pri preseljenju",
+      "desc": "Boravak, registracija firme, kupovina nekretnine, zakazivanje u organima. Objasnim kako ovde sve funkcioniše i prođem put sa vama.",
+      "price": "individualno"
+    },
+    "priceLabel": "Cena",
+    "cardCta": "Razgovarajmo o zadatku"
+  },
+  "stats": {
+    "years": { "value": "3", "label": "godine prakse" },
+    "clients": { "value": "100+", "label": "zadovoljnih klijenata" },
+    "languages": { "value": "3", "label": "radna jezika" }
+  },
+  "requests": {
+    "eyebrow": "Česti upiti",
+    "title": "Zbog čega mi se najčešće obraćaju",
+    "subtitle": "Ako vašeg slučaja nema na spisku — samo pišite, rešićemo zajedno.",
+    "docsTitle": "Dokumenta",
+    "docs": [
+      "Uverenje o nekažnjavanju",
+      "Diplome i svedočanstva",
+      "Izvodi iz matične knjige rođenih i venčanih",
+      "Vozačka dozvola",
+      "Bankovni izvodi",
+      "Ugovori i punomoćja",
+      "Medicinski nalazi i izveštaji"
+    ],
+    "casesTitle": "Situacije",
+    "cases": [
+      "Dobijanje boravka",
+      "Registracija firme",
+      "Kupovina i najam nekretnina",
+      "Otvaranje bankovnog računa",
+      "Poseta lekaru",
+      "Prijava u policiji",
+      "Kod notara"
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "Kako funkcioniše",
+    "title": "Četiri jednostavna koraka",
+    "subtitle": "Bez birokratije sa moje strane — teško preuzimam na sebe.",
+    "steps": {
+      "s1": { "title": "Upit", "desc": "Pišite na Telegram ili popunite formu — opišite šta vam treba." },
+      "s2": { "title": "Preciziram", "desc": "Postavim par pitanja, pa dam rok i cenu. Bez iznenađenja." },
+      "s3": { "title": "Radim", "desc": "Prevodim dokumenta ili dolazim na sastanak i govorim umesto vas." },
+      "s4": { "title": "Rezultat", "desc": "Dobijate gotov prevod ili mirno prolazite kroz instituciju." }
+    }
+  },
+  "about": {
+    "eyebrow": "O meni",
+    "title": "Lokalni prevodilac, a ne bezlična agencija",
+    "body": "Živim u Herceg Novom i svakodnevno pomažem ljudima sa ruskog govornog područja i strancima da reše pitanja sa dokumentima i crnogorskim organima. Znam kako ovde stvari zaista funkcionišu — ne iz priručnika — i objašnjavam jasnim jezikom.",
+    "points": {
+      "p1": "Sa vama radim lično ja — bez posrednika i podizvođača",
+      "p2": "Poznajem procedure boravka, notara i banaka iznutra",
+      "p3": "Herceg Novi, Kotor, Tivat, Budva — cela Boka Kotorska"
+    },
+    "langsLabel": "ruski maternji · srpski i engleski tečno"
+  },
+  "reviews": {
+    "eyebrow": "Situacije klijenata",
+    "title": "Kada je bolje da ne idete sami",
+    "subtitle": "U Crnoj Gori često nije dovoljno samo prevesti reči. Važno je znati šta pitati, šta proveriti i šta službi zaista treba.",
+    "resultLabel": "Šta dobijate",
+    "items": {
+      "r1": { "title": "Dokumenta i notar", "text": "Ugovor, potvrda, diploma ili punomoć često traže više od doslovnog prevoda. Važno je da dokument bude jasan banci, MUP-u ili notaru.", "result": "Jasan prevod, spisak dokumenata koji nedostaju i, po potrebi, organizacija overe preko sudskog tumača." },
+      "r2": { "title": "Sastanci u institucijama", "text": "U policiji, opštini, banci ili bolnici važno je brzo razumeti pitanje, mirno odgovoriti i ne izgubiti se u proceduri.", "result": "Prisutan sam na sastanku, prevodim razgovor i objašnjavam šta je sledeći korak." },
+      "r3": { "title": "Selidba i svakodnevni zadaci", "text": "Boravak, zakup, kupovina nekretnine, otvaranje firme ili računa sastoje se od mnogo malih koraka gde jezik lako napravi problem.", "result": "Praktičan plan, podrška u ključnim koracima i jasna komunikacija sa lokalnim stručnjacima." }
+    }
+  },
+  "faq": {
+    "eyebrow": "Česta pitanja",
+    "title": "Ukratko o najvažnijem",
+    "registerLink": "Registar sudskih tumača Ministarstva pravde Crne Gore",
+    "items": {
+      "q1": { "q": "Da li ste sudski tumač?", "a": "Ne. Radim usmeno i pismeno prevođenje, a overene prevode za sud i notara organizujem preko sudskog tumača — tako da ga ne morate sami tražiti." },
+      "q2": { "q": "Sa kojim jezicima radite?", "a": "Ruski, engleski i srpski (crnogorski) u svim kombinacijama." },
+      "q3": { "q": "Koliko košta?", "a": "Pratnja — 10–15 €/sat, pismeni prevod — po strani, podrška pri preseljenju — individualno. Tačnu cenu dam nakon kratkog opisa zadatka." },
+      "q4": { "q": "Koliko brzo odgovarate?", "a": "Obično u toku dana. Za hitno — pišite na Telegram, odgovorim brže." },
+      "q5": { "q": "Izlazite li van Herceg Novog?", "a": "Da — radim u celoj Boki Kotorskoj: Tivat, Kotor, Budva i okolina." }
+    }
+  },
+  "form": {
+    "eyebrow": "Kontakt",
+    "title": "Pošaljite upit",
+    "subtitle": "Opišite zadatak — odgovorim u toku dana i dam cenu.",
+    "name": "Kako se zovete",
+    "namePlaceholder": "Ime",
+    "contact": "Telegram ili telefon",
+    "contactPlaceholder": "@username ili +382…",
+    "service": "Šta vam treba",
+    "serviceOptions": {
+      "interpreting": "Usmeno prevođenje / pratnja",
+      "documents": "Prevod dokumenata",
+      "relocation": "Podrška pri preseljenju",
+      "other": "Drugo"
+    },
+    "message": "Opišite zadatak",
+    "messagePlaceholder": "Par reči o tome sa čim vam treba pomoć…",
+    "submit": "Pošalji upit",
+    "sending": "Šaljem…",
+    "success": "Hvala! Upit je poslat — odgovorim u toku dana.",
+    "error": "Slanje nije uspelo. Pišite mi na Telegram.",
+    "privacy": "Slanjem forme pristajete na obradu podataka radi odgovora na vaš upit.",
+    "orReach": "Ili me kontaktirajte direktno:",
+    "phoneLabel": "Telefon",
+    "sendAnother": "Pošalji još jedan upit",
+    "fastTitle": "Najbrže odgovaram na Telegramu",
+    "fastText": "Forma je dobra za detaljan opis zadatka. Ako je hitno, pišite direktno.",
+    "configError": "Forma još nije podešena. Molim vas, pišite na Telegram."
+  },
+  "cta": {
+    "title": "Treba vam prevodilac u Crnoj Gori?",
+    "subtitle": "Opišite šta vam treba — savetujem najbolji način i dam cenu. Bez obaveza.",
+    "button": "Pišite na Telegram"
+  },
+  "footer": {
+    "area": "Herceg Novi, Tivat, Kotor, Budva i cela Boka Kotorska",
+    "disclaimer": "Nisam sudski tumač. Prevode overene za sud i notara organizujem preko sudskog tumača.",
+    "rights": "Sva prava zadržana.",
+    "navTitle": "Sekcije",
+    "contactTitle": "Kontakti",
+    "tagline": "Prevodilac uz vas kad treba da rešite stvari u Crnoj Gori.",
+    "privacy": "Politika privatnosti"
+  },
+  "privacy": {
+    "title": "Politika privatnosti",
+    "updatedLabel": "Ažurirano",
+    "backHome": "Na početnu",
+    "sections": [
+      { "title": "Ko obrađuje podatke", "body": "Ovaj sajt vodi Nikolaj, prevodilac u Herceg Novom (Crna Gora). Za pitanja o vašim podacima pišite na nikolaistukov38@gmail.com." },
+      { "title": "Koji se podaci prikupljaju", "body": "Podaci koje dobrovoljno šaljete putem forme: ime, kontakt (Telegram ili telefon) i opis zadatka. Prikuplja se i anonimna statistika poseta — bez reklamnih kolačića." },
+      { "title": "Zašto", "body": "Da bismo odgovorili na vaš upit, dogovorili zadatak i pružili uslugu prevođenja. Pravni osnov je vaš zahtev i saglasnost data slanjem forme." },
+      { "title": "Kome se podaci prosleđuju", "body": "Poruke iz forme se dostavljaju preko servisa Web3Forms; sajt je hostovan na platformi Vercel. Podaci se ne prodaju niti dele trećim stranama u marketinške svrhe." },
+      { "title": "Koliko se čuvaju", "body": "Onoliko koliko je potrebno za prepisku po vašem upitu. Na vaš zahtev podaci se brišu." },
+      { "title": "Vaša prava", "body": "Možete zatražiti pristup svojim podacima, ispravku ili brisanje — pišite na navedeni email." },
+      { "title": "Kolačići", "body": "Sajt ne koristi reklamne ni prateće kolačiće. Analitika poseta je anonimna." },
+      { "title": "Izmene", "body": "Politika se može ažurirati. Aktuelni datum je naveden na vrhu stranice." }
+    ]
+  }
+}

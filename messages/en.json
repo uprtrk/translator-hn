@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "title": "Translator in Herceg Novi · Russian, English, Serbian",
+    "description": "Interpreting and document translation, accompaniment to the notary, doctor, bank and government offices. Full relocation support in Montenegro."
+  },
+  "brand": {
+    "name": "Nikolai · Translator in Herceg Novi",
+    "short": "Nikolai"
+  },
+  "nav": {
+    "services": "Services",
+    "howItWorks": "How it works",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Message on Telegram",
+    "skip": "Skip to content",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "Herceg Novi · Bay of Kotor",
+    "title": "A translator who guides you <hl>through every office</hl>",
+    "subtitle": "Interpreting, document translation, accompaniment to government offices and full relocation support in Montenegro — clear, human, in your language.",
+    "ctaPrimary": "Message on Telegram",
+    "ctaSecondary": "Send a request",
+    "imageAlt": "Panorama of the Bay of Kotor and Herceg Novi",
+    "badges": {
+      "languages": "Russian · English · Serbian",
+      "local": "Based in Herceg Novi",
+      "response": "I reply within a day"
+    }
+  },
+  "services": {
+    "title": "How I can help",
+    "subtitle": "Three formats — from a one-off appointment to managing your whole move.",
+    "interpreting": {
+      "title": "Interpreting & accompaniment",
+      "desc": "I'll come with you to the notary, doctor, bank, police, property deals and government offices. I speak for you — you stay relaxed.",
+      "price": "€10–15 / hour"
+    },
+    "documents": {
+      "title": "Document translation",
+      "desc": "Contracts, certificates, diplomas, records, medical reports. If needed, I arrange certification with a sworn translator.",
+      "price": "per page / on request"
+    },
+    "relocation": {
+      "title": "Full relocation support",
+      "desc": "Residence permit, company registration, buying property, appointments with authorities. I explain how things work here and walk the path with you.",
+      "price": "individual"
+    },
+    "priceLabel": "Price",
+    "cardCta": "Discuss your case"
+  },
+  "stats": {
+    "years": { "value": "3", "label": "years of practice" },
+    "clients": { "value": "100+", "label": "happy clients" },
+    "languages": { "value": "3", "label": "working languages" }
+  },
+  "requests": {
+    "eyebrow": "Common requests",
+    "title": "What people come to me for",
+    "subtitle": "If your case isn't on the list — just message me, we'll figure it out together.",
+    "docsTitle": "Documents",
+    "docs": [
+      "Criminal record certificate",
+      "Diplomas and school certificates",
+      "Birth and marriage certificates",
+      "Driving licence",
+      "Bank statements",
+      "Contracts and powers of attorney",
+      "Medical certificates and records"
+    ],
+    "casesTitle": "Situations",
+    "cases": [
+      "Residence permit (boravak)",
+      "Company registration",
+      "Buying and renting property",
+      "Opening a bank account",
+      "Doctor visits",
+      "Police registration",
+      "Notary appointments"
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "Four simple steps",
+    "subtitle": "No bureaucracy on my side — I take the hard part on myself.",
+    "steps": {
+      "s1": { "title": "Request", "desc": "Message me on Telegram or fill in the form — tell me what you need." },
+      "s2": { "title": "I clarify", "desc": "A couple of questions, then I quote the timeline and price. No surprises." },
+      "s3": { "title": "I work", "desc": "I translate your documents or come to the appointment and speak for you." },
+      "s4": { "title": "Result", "desc": "You get the finished translation or sail through the office calmly." }
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "A local translator, not a faceless agency",
+    "body": "I live in Herceg Novi and help Russian speakers and foreigners deal with documents and Montenegrin authorities every day. I know how things really work here — not from a manual — and I explain it in plain language.",
+    "points": {
+      "p1": "You deal with me directly — no intermediaries, no subcontractors",
+      "p2": "I know residence, notary and bank procedures from the inside",
+      "p3": "Herceg Novi, Kotor, Tivat, Budva — the whole Bay of Kotor"
+    },
+    "langsLabel": "Russian native · Serbian and English fluent"
+  },
+  "reviews": {
+    "eyebrow": "Client situations",
+    "title": "When it is better not to go alone",
+    "subtitle": "In Montenegro, the hard part is often not just the words. It is knowing what to ask, what to clarify and what the office actually needs.",
+    "resultLabel": "What you get",
+    "items": {
+      "r1": { "title": "Documents and notary", "text": "A contract, certificate, diploma or power of attorney often needs more than literal translation. It needs to make sense for the bank, MUP or notary reading it.", "result": "A clear translation, a list of missing papers and, when needed, certification arranged through a sworn translator." },
+      "r2": { "title": "Appointments with offices", "text": "At the police, municipality, bank or hospital, you need to understand the question quickly, answer calmly and avoid getting lost in procedure.", "result": "I stay with you at the appointment, translate the conversation and explain the next step." },
+      "r3": { "title": "Relocation and everyday tasks", "text": "Residence permits, rent, buying property, opening a company or a bank account are made of many small steps where language mistakes cost time.", "result": "A practical route, support at key steps and clear communication with local specialists." }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "The essentials, briefly",
+    "registerLink": "Ministry of Justice register of court interpreters",
+    "items": {
+      "q1": { "q": "Are you a sworn court translator (sudski tumač)?", "a": "No. I do interpreting and translation, and I arrange certified translations for court and notary through a sworn translator — so you don't have to find one yourself." },
+      "q2": { "q": "Which languages do you work with?", "a": "Russian, English and Serbian (Montenegrin) in any combination." },
+      "q3": { "q": "How much does it cost?", "a": "Accompaniment — €10–15/hour, document translation — per page, relocation support — individual. I'll give an exact price after a short description of your task." },
+      "q4": { "q": "How fast do you reply?", "a": "Usually within a day. For urgent matters, message me on Telegram and I'll reply sooner." },
+      "q5": { "q": "Do you travel outside Herceg Novi?", "a": "Yes — I work across the whole Bay of Kotor: Tivat, Kotor, Budva and around." }
+    }
+  },
+  "form": {
+    "eyebrow": "Contact",
+    "title": "Send a request",
+    "subtitle": "Describe your task — I'll reply within a day and quote a price.",
+    "name": "Your name",
+    "namePlaceholder": "Name",
+    "contact": "Telegram or phone",
+    "contactPlaceholder": "@username or +382…",
+    "service": "What you need",
+    "serviceOptions": {
+      "interpreting": "Interpreting / accompaniment",
+      "documents": "Document translation",
+      "relocation": "Relocation support",
+      "other": "Other"
+    },
+    "message": "Describe your task",
+    "messagePlaceholder": "A few words about what you need help with…",
+    "submit": "Send request",
+    "sending": "Sending…",
+    "success": "Thank you! Your request has been sent — I'll reply within a day.",
+    "error": "Couldn't send. Please message me on Telegram.",
+    "privacy": "By submitting the form you agree to your data being processed to answer your request.",
+    "orReach": "Or reach me directly:",
+    "phoneLabel": "Phone",
+    "sendAnother": "Send another request",
+    "fastTitle": "Telegram is the fastest way to reach me",
+    "fastText": "Use the form for a detailed task. If it is urgent, message me directly.",
+    "configError": "The form is not configured yet. Please message me in Telegram."
+  },
+  "cta": {
+    "title": "Need a translator in Montenegro?",
+    "subtitle": "Describe your task — I'll advise the best way forward and quote a price. No obligation.",
+    "button": "Message on Telegram"
+  },
+  "footer": {
+    "area": "Herceg Novi, Tivat, Kotor, Budva and the whole Bay of Kotor",
+    "disclaimer": "I am not a sworn court translator (sudski tumač). Translations certified for court and notary are arranged through a sworn translator.",
+    "rights": "All rights reserved.",
+    "navTitle": "Sections",
+    "contactTitle": "Contacts",
+    "tagline": "A translator by your side whenever you need to get things done in Montenegro.",
+    "privacy": "Privacy Policy"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updatedLabel": "Updated",
+    "backHome": "Back to home",
+    "sections": [
+      { "title": "Who processes your data", "body": "This site is run by Nikolai, a translator in Herceg Novi (Montenegro). For any questions about your data, write to nikolaistukov38@gmail.com." },
+      { "title": "What data is collected", "body": "The data you voluntarily submit through the form: your name, contact (Telegram or phone) and a description of your task. Anonymous visit statistics are also collected — without advertising cookies." },
+      { "title": "Why", "body": "To reply to your request, discuss your task and provide the translation service. The legal basis is your request and the consent given when submitting the form." },
+      { "title": "Who receives the data", "body": "Form messages are delivered via the Web3Forms service; the site is hosted on Vercel. Data is not sold or shared with third parties for marketing." },
+      { "title": "How long it is kept", "body": "As long as needed for correspondence about your request. Data is deleted at your request." },
+      { "title": "Your rights", "body": "You can request access to, correction of, or deletion of your data — just write to the email above." },
+      { "title": "Cookies", "body": "The site uses no advertising or tracking cookies. Visit analytics are anonymous." },
+      { "title": "Changes", "body": "This policy may be updated. The current date is shown at the top of the page." }
+    ]
+  }
+}

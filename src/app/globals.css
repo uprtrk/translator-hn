@@ -1,0 +1,288 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), system-ui, sans-serif;
+  --font-display: var(--font-display), Georgia, serif;
+
+  /* ── Бумага. Тёплый off-white вместо стерильного #fff ───────────── */
+  --color-paper-50: #fdfbf8;
+  --color-paper-100: #faf7f1;
+  --color-paper-200: #f3ede3;
+  --color-paper-300: #e8dfd1;
+
+  /* ── Чернила. Глубокий сине-графитовый, а не чёрный ─────────────── */
+  --color-ink-950: #0c1a21;
+  --color-ink-900: #12232b;
+  --color-ink-800: #1c333d;
+  --color-ink-700: #2d4854;
+  --color-ink-500: #566d78;
+  --color-ink-400: #7b8f99;
+  --color-ink-300: #a8b7be;
+  --color-ink-200: #d2dade;
+  --color-ink-100: #e6ecee;
+
+  /* ── Единственный акцент. Черепица Херцег-Нови, приглушённая ─────
+     Насыщенность 64% — держим ниже 80%, чтобы не кричал.           */
+  --color-accent-600: #a8431f;
+  --color-accent-500: #c4562a;
+  --color-accent-400: #d9784c;
+  --color-accent-200: #f0c4ae;
+  --color-accent-50: #fbf0ea;
+
+  /* ── Море. Ушло из акцентов в поддержку: только для глубоких зон ── */
+  --color-sea-900: #0d3546;
+  --color-sea-800: #155268;
+  --color-sea-700: #10657f;
+  --color-sea-500: #0e9fbb;
+  --color-sea-200: #a3ecf5;
+  --color-sea-50: #ecfeff;
+
+  /* ── Типографическая шкала: редакционная, со скачками ─────────────
+     Не ровная прогрессия, а контраст — крупное крупно, мелкое мелко. */
+  --text-micro: 0.6875rem;
+  --text-micro--line-height: 1.4;
+  --text-label: 0.75rem;
+  --text-label--line-height: 1.3;
+  --text-lede: clamp(1.0625rem, 1.6vw, 1.3125rem);
+  --text-lede--line-height: 1.62;
+  --text-h3: clamp(1.25rem, 2vw, 1.5rem);
+  --text-h3--line-height: 1.25;
+  --text-h2: clamp(2.125rem, 5vw, 3.75rem);
+  --text-h2--line-height: 1.04;
+  /* Потолок снижен с 7rem: при 7rem русский заголовок ложился в 5 строк,
+     hero вырастал до 1071px и кнопка уходила за фолд на экране 1280×800. */
+  --text-display: clamp(2.5rem, 5.6vw, 4.5rem);
+  --text-display--line-height: 0.95;
+
+  /* ── Радиусы: система из трёх, а не пять случайных ──────────────── */
+  --radius-sharp: 2px;
+  --radius-soft: 10px;
+  --radius-round: 999px;
+
+  /* ── Совместимость: старые имена, пока не мигрированы все компоненты ─
+     terracotta-* теперь просто синонимы единственного акцента.        */
+  --color-terracotta-600: #a8431f;
+  --color-terracotta-500: #c4562a;
+  --color-terracotta-400: #d9784c;
+  --color-sea-950: #0c1a21;
+  --color-sea-600: #10657f;
+  --color-sea-400: #2bbdd6;
+  --color-sea-300: #67d9ea;
+  --color-sea-100: #cff8fc;
+
+  /* ── Слои. Никаких z-index: 9999 ────────────────────────────────── */
+  --z-base: 1;
+  --z-sticky: 20;
+  --z-header: 40;
+  --z-float: 50;
+}
+
+/* Lenis управляет скроллом сам — нативный smooth ему мешает. */
+html {
+  scroll-behavior: smooth;
+}
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper-100);
+  font-synthesis-weight: none;
+}
+
+/* ── Зерно. Ломает цифровую плоскость, читается только подсознательно ─
+   SVG-шум инлайном: без сетевого запроса и без лишнего файла.        */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-float);
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ── Типографика ─────────────────────────────────────────────────── */
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.022em;
+}
+
+/* Крупная антиква: чем больше кегль, тем плотнее трекинг. */
+.display-xl {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+}
+
+/* Курсив антиквы — вместо ВЕРХНЕГО РЕГИСТРА в подзаголовках. */
+.display-italic {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+/* Рубрика над заголовком: разрядка + строчные, не капс-крик. */
+.eyebrow {
+  font-size: var(--text-label);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-ink-400);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Цифры в статистике не должны «плясать» по ширине. */
+.tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+/* Абзац — не шире ~65 знаков, иначе глаз теряет строку. */
+.measure {
+  max-width: 62ch;
+}
+.measure-tight {
+  max-width: 46ch;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+
+::selection {
+  background-color: var(--color-accent-500);
+  color: var(--color-paper-50);
+}
+
+/* ── Линейки вместо карточек ─────────────────────────────────────────
+   Редакционная вёрстка разделяет контент волосяными линиями,
+   а не коробками с тенью.                                            */
+.rule {
+  border-top: 1px solid var(--color-ink-100);
+}
+.rule-ink {
+  border-top: 1px solid rgb(255 255 255 / 0.14);
+}
+
+/* ── Ссылки ──────────────────────────────────────────────────────── */
+.link-underline {
+  position: relative;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  width: 100%;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.link-underline:hover::after,
+.link-underline.is-active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Ссылка в тексте: подчёркивание живёт под базовой линией. */
+.link-inline {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: var(--color-accent-200);
+  transition: text-decoration-color 0.25s ease;
+}
+.link-inline:hover {
+  text-decoration-color: var(--color-accent-500);
+}
+
+/* ── Стекло: с преломлением по краю, а не просто blur ────────────── */
+.glass-panel {
+  border: 1px solid rgb(255 255 255 / 0.16);
+  background:
+    linear-gradient(150deg, rgb(255 255 255 / 0.14), rgb(255 255 255 / 0.04)),
+    rgb(12 26 33 / 0.42);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.24),
+    inset 0 -1px 0 rgb(0 0 0 / 0.18),
+    0 32px 90px rgb(12 26 33 / 0.38);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+}
+
+/* Тени тонированы под фон, а не «чёрный на 10%». */
+.shadow-paper {
+  box-shadow: 0 18px 50px -20px rgb(28 51 61 / 0.28);
+}
+
+/* Медленный Ken Burns-зум фона hero */
+@keyframes hero-zoom {
+  from {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+.hero-zoom {
+  animation: hero-zoom 26s ease-out forwards;
+}
+
+/* Якоря не прячутся под фиксированной шапкой */
+[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* Фокус: акцентный, но не ломающий форму элемента */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--color-accent-500);
+  outline-offset: 3px;
+  border-radius: var(--radius-sharp);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .hero-zoom {
+    animation: none;
+  }
+  .glass-panel {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  /* Появления при скролле гасим здесь, а не ветвлением в React: разметка
+     на сервере и клиенте обязана совпадать, иначе opacity:0 залипает
+     и половина страницы не показывается. См. комментарий в Reveal.tsx. */
+  .reveal-item {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
